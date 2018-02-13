@@ -1,0 +1,20 @@
+section {
+  width: 380px;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+}
