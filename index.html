@@ -9,18 +9,24 @@
     </head>
     <body>
       <section>
-        <h1>Sing up</h1>
         <form action="#" method="post"  enctype="multipart/form-data">
-          
+          <h1>Sing up</h1>
+          <div class="two-columns">
+            <div class="input-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Name">
+            </div>
+            <div class="input-group">
+              <label for="name">Last name</label>
+              <input type="text" name="last-name" id="last-name" placeholder="Last name">
+            </div>
+          </div>
           <label for="username">Username</label>
           <input type="text" name="username" id="username" placeholder="Pick a username">
           <label for="email">Email</label>
           <input type="email" name="email" id="email" placeholder="you@example.com">
           <label for="password">Password</label>
           <input type="password" name="password" id="pass" placeholder="Enter your password">
-
-          <label for="avatar">Upload your picture</label>
-          <input type="file" name="avatar" id="avatar" accept="image/jpeg" multiple>
 
           <fieldset>
             <legend>Select your sex</legend>
@@ -30,34 +36,8 @@
             <label for="fem">Male</label>
           </fieldset>
 
-            <fieldset>
-              <legend>Select all your preferences</legend>
-              <input type="checkbox" name="sex" id="p1" value="p1">
-              <label for="p1">Preference 1</label>
-              <input type="checkbox" name="sex" id="p2" value="p2">
-              <label for="p2">Preference 2</label>
-              <input type="checkbox" name="sex" id="p3" value="p3">
-              <label for="p3">Preference 3</label>
-            </fieldset>
-
-            <label for="birthday">Select your birthday</label>
-            <input type="data" name="birthday" id="birthday">
-
-            <label for="time">Awake time</label>
-            <input type="time" name="time">
-
-            <label for="services">Grade the service</label>
-            <input type="range" name="services" id="services" min="5" max="20" step="2">
-
             <label for="age">Age</label>
             <input type="number" name="age" id="age" min="18" max="65">
-
-            <label for="fb">Facebook url</label>
-            <input type="url" name="fb" id="fb">
-
-            <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone">
-
 
           <button type="submit" name="button">Sing up</button>
         </form>
