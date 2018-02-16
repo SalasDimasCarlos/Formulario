@@ -1,7 +1,7 @@
-
+/* ----------------- GENERALS ------------------*/
 body {
   background-color: #05203C;
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,27 +9,37 @@ body {
 
 form {
   width: 380px;
-  display: flex;
-  flex-direction: column;
 }
-
 
 section {
   background-color: white;
-  width: 450px;
-  height: 500px;
+  width: auto;
+  height: auto;
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 5px;
 }
 
-
-h1{
+section h1 {
+  text-align: center;
   color: black;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
 }
 
+section fieldset {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  width: 85%;
+  margin-top: 5px;
+}
+
+/* -------------------------- INPUTS -------------------------------*/
 
 label,
 input {
@@ -39,8 +49,9 @@ input {
 
 label {
   color: black;
-  padding-top: 15px;
+  padding-top: 10px;
 }
+
 
 .two-columns {
   display: flex;
@@ -54,6 +65,8 @@ label {
   color: black;
   padding-top: 15px;
 }
+
+
 input {
   border-radius: 5px;
   border: 1px solid grey;
@@ -61,6 +74,8 @@ input {
   margin-top: 5px;
   width: 85%;
 }
+
+/*-------------------------- BUTTON ----------------------*/
 
 button {
   margin-top: 5px;
