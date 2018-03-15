@@ -24,7 +24,12 @@
             </div>
           </div>
           <label for="username">Username</label>
-          <input type="text" name="username" id="username" placeholder="Pick a username">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Pick a username"
+            onfocus="saluda()">
           <label for="email">Email</label>
           <input type="email" name="email" id="email" placeholder="you@example.com">
           <label for="password">Password</label>
@@ -41,10 +46,11 @@
             <label for="age">Age</label>
             <input type="number" name="age" id="age" min="18" max="65">
 
-          <button type="submit" name="button">Sign up</button>
+          <button type="submit" name="button" id="signup">Sign up</button>
         </form>
       </section>
 
+      <script src="js/timer.js"></script>
       <script src="js/actions.js"></script>
     </body>
   </html>
