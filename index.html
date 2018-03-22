@@ -45,7 +45,9 @@
           </fieldset>
 
             <label for="age">Age</label>
-            <input type="number" name="age" id="age" min="18" max="65">
+            <input type="text" name="age" id="age"
+            pattern="[a-z]{2,5}"
+            required>
 
           <button type="submit" name="button" id="signup">Sign up</button>
         </form>

@@ -94,3 +94,13 @@ button:hover {
   cursor: pointer;
   background: #4C8DCA;
 }
+
+/*-----------  CLASS ERROR --------------------*/
+.error {
+  border: 1px solid red;
+}
+
+.errorMessage{
+  color: red;
+  font-size: 10px;
+}
